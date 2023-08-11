@@ -1,20 +1,13 @@
 
 import './App.css';
-import HookCounterFour from './UseStateHook/HookCounterFour';
-// import HookCounterThree from './UseStateHook/HookCounterThree';
-// import HookCounterTwo from './UseStateHook/HookCounterTwo';
-// import ClassCounter from './UseStateHook/classCount';
-
+import HookCounterOne from './UseEffectHook/HookCounterOne';
+import ClassCounterOne from './UseEffectHook/classCounterOne';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        {/* <HookCounterThree></HookCounterThree>
-         */}
-        <HookCounterFour />
-      </header>
-    </div>
+ <ClassCounterOne />
+  <HookCounterOne />
+</div>
   );
 }
-
 export default App;
